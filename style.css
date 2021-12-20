@@ -15,3 +15,9 @@ a{
 .container{
     margin: 0 auto;
 }
+
+nav{
+    width: 100%;
+    max-height: 500px;
+    background-image: url(img/jumbo.png) ;
+}
