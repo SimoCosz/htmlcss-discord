@@ -28,6 +28,10 @@ a{
     margin: 0 auto;
 }
 
+.bkg-grey{
+    background-color: #F6F6F6 ;
+}
+
 
 .debug{
     border: 1px solid;
@@ -169,8 +173,7 @@ header{
 /* 1^section  */
 
 .first-section{
-    width: 940px;
-    background-position: bottom;
+    width: 100%;
 }
 
 .img-left, .text-right{
@@ -200,12 +203,6 @@ header{
 }
 
 /* 2^section */
-
-.second-section{
-    background-color: #ddd;
-    width: 940px;
-    background-position: bottom;
-}
 
 .img-right, .text-left{
     margin: 130px 50px;
@@ -237,14 +234,19 @@ header{
     text-align: center;
 }
 
+.img{
+    margin: 0 auto;
+    width: 930px;
+}
+
 .fourth-section h1{
     font-size: 40px;
-    margin-bottom: 20px;
+    padding: 100px 0 30px 0;
 }
 
 .center{
+    padding-bottom: 40px;
     text-align: center;
-    margin-bottom: 100px;
 
 }
 
@@ -276,10 +278,82 @@ header{
     transition: 100ms ease-in-out;
 }
 
+footer{
+    background-color: #23272A;
+}
+
 .col-1{
     width: 20%;
+    padding: 20px;
 }
 
 .col-1 h2{
+    color:#8EA1E1;
     margin-bottom: 20px;
+}
+
+.col-1 img{
+    width: 20px;
+    height: 15px;
+}
+
+.follow{
+    color: white;
+    padding: 20px 0;
+}
+
+.follow a{
+    padding-right: 20px;
+    max-width: 10px;
+    max-height: 10px;
+}
+
+footer [class^="col-"] {
+    width: 20%;
+    margin-top: 50px;
+    padding: 10px;
+    float: left;
+}
+
+footer h4{
+    padding: 10px 0;
+    color:#8EA1E1;
+}
+
+footer li{
+    padding: 5px 0;
+    list-style: none;
+    color: white;
+}
+
+footer li a{
+    padding: 5px;
+}
+
+footer li a:hover{
+    text-decoration: underline;
+}
+
+.last-foot{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-top: 2px solid #8EA1E1;
+    background-color: #23272A;
+    max-height: 50px;
+}
+
+.last-foot a{
+    border-radius: 30px;
+    background-color: #8EA1E1;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    float: right;
+}
+
+.last-foot a:hover{
+    background-color: rgb(59, 59, 218);
+    box-shadow: 5px 5px 5px lightblue;
+    transition: 100ms ease-in-out;
 }
