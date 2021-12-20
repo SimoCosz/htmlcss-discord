@@ -198,9 +198,31 @@ header{
 }
 
 .text-right p{
-    font-size: 13px;
+    font-size: 15px;
     line-height: 18px;
 }
+
+.wave{
+    display: block;
+    margin-bottom: -4px;
+    min-width: 100%;
+    min-height: 100px;
+    background-color: #F6F6F6;
+    opacity: 0.04;
+    
+}
+
+.wave-rotate{
+    transform: rotate(180deg);
+    display: block;
+    margin-top: -4px;
+    min-width: 100%;
+    min-height: 100px;
+    background-color: #F6F6F6;
+    opacity: 0.04;
+    
+}
+
 
 /* 2^section */
 
@@ -226,7 +248,7 @@ header{
 }
 
 .text-left p{
-    font-size: 13px;
+    font-size: 15px;
     line-height: 18px;
 }
 
