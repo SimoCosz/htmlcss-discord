@@ -121,6 +121,7 @@ header{
 }
 
 .jumbo--content h1{
+    font-size: 40px;
     padding: 20px;
 }
 
@@ -164,3 +165,121 @@ header{
 }
 
        /* MAIN */
+
+/* 1^section  */
+
+.first-section{
+    width: 940px;
+    background-position: bottom;
+}
+
+.img-left, .text-right{
+    margin: 130px 50px;
+}
+
+.img-left{
+    width: 50%;
+    float: left;
+}
+
+.text-right{
+    padding: 30px;
+    width: 250px;
+    float: left;
+}
+
+.text-right h2{
+    font-size: 29px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.text-right p{
+    font-size: 13px;
+    line-height: 18px;
+}
+
+/* 2^section */
+
+.second-section{
+    background-color: #ddd;
+    width: 940px;
+    background-position: bottom;
+}
+
+.img-right, .text-left{
+    margin: 130px 50px;
+}
+
+.img-right{
+    width: 50%;
+    float: right;
+}
+
+.text-left{
+    padding: 30px;
+    width: 250px;
+    float: right;
+}
+
+.text-left h2{
+    font-size: 29px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.text-left p{
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.fourth-section{
+    text-align: center;
+}
+
+.fourth-section h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.center div{
+    background-image: url(img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+.center h2{
+    margin-bottom: 60px;
+}
+
+.center a{
+    color: white;
+    padding: 10px;
+    background-color: #8EA1E1;
+    border-radius: 30px;
+}
+
+.center a:hover{
+    background-color: rgb(59, 59, 218);
+    box-shadow: 5px 5px 5px lightblue;
+    transition: 100ms ease-in-out;
+}
+
+.col-1{
+    width: 20%;
+}
+
+.col-1 h2{
+    margin-bottom: 20px;
+}
