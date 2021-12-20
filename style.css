@@ -35,7 +35,7 @@ a{
     min-height: 100px;
 }
 
-        /* ________________________ */
+        /* NAVBAR + JUMBOTRONE */
 
 header{
     width: 100%;
@@ -130,10 +130,10 @@ header{
     margin: 20px;
     padding: 10px;
 }
+
 .jumbo--content a{
     padding: 20px;
 }
-
 
 .jumbo--content .for-mac{
     background-color: white;
@@ -161,5 +161,6 @@ header{
     border: 1px solid white;
     box-shadow: 5px 5px 20px;
     transition: 200ms ease-in-out;
-
 }
+
+       /* MAIN */
