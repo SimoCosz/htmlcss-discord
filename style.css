@@ -1,3 +1,7 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -10,14 +14,75 @@ img{
 
 a{
     text-decoration: none;
+    color: currentColor;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .container{
+    width: 1024px;
     margin: 0 auto;
 }
 
-nav{
-    width: 100%;
-    max-height: 500px;
+
+.debug{
+    border: 1px solid;
+    min-width: 100%;
+    min-height: 100px;
+}
+
+        /* ________________________ */
+
+header{
+    width: 1356px;
+    height: 500px;
     background-image: url(img/jumbo.png) ;
+    background-size: cover;
+}
+
+.nav{
+    background-color: #3061E0;
+}
+
+.logo{
+    float: left;
+    width: 10%;
+    height: 35px;
+    vertical-align: middle;
+    padding: 5px 0;
+}
+
+.navigator{
+    text-align: center;
+    width: 80%;
+    float: left;
+    vertical-align: middle;
+    padding: 5px 0;
+}
+
+.navigator ul li{
+    color: white;
+    margin: 0 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+.btn-sign{
+    float: right;
+    padding: 5px 0;
+}
+
+.btn-sign a{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: white;
+    vertical-align: middle;
+    padding: 3px 6px;
+    width: 10%;
+
 }
